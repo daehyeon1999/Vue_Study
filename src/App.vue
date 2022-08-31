@@ -1,9 +1,15 @@
 <template>
+  <!-- navigator 태그 -->
   <nav>
+    <!-- Home 으로 -->
     <router-link to="/">Home</router-link> |
+
+    <!-- About page으로 -->
     <router-link to="/about">About</router-link>
   </nav>
-  <router-view/>
+
+  <!-- router-link의 페이지가 보여지는 부분 -->
+  <router-view />
 </template>
 
 <style>
