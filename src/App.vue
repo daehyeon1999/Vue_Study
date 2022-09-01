@@ -8,7 +8,7 @@
     <router-link to="/about">About</router-link> |
 
     <!-- Data binding page으로 -->
-    <router-link to="/databinding/string">Data Binding String</router-link> |
+    <!-- <router-link to="/databinding/string">Data Binding String</router-link> |
     <router-link to="/databinding/html">Data Binding Html</router-link> |
     <router-link to="/databinding/input">Data Binding Input</router-link> |
     <router-link to="/databinding/select">Data Binding Select</router-link> |
@@ -19,7 +19,10 @@
     >
     | <router-link to="/databinding/list">Data Binding List</router-link> |
     <router-link to="/databinding/class">Data Binding Class</router-link> |
-    <router-link to="/databinding/style">Data Binding Style</router-link>
+    <router-link to="/databinding/style">Data Binding Style</router-link> -->
+
+    <!-- Event -->
+    <router-link to="event/click">Event Click</router-link>
   </nav>
 
   <!-- router-link의 페이지가 보여지는 부분 -->
