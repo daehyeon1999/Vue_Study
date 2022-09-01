@@ -20,6 +20,11 @@ const routes = [
     // prefetch를 사용하면, 지금 당장 사용하지 않지만 가까운 미래에 쓸것 같은 page를 브라우저 캐시에 저장한다.
     // 또는 사이즈가 큰 페이지나를 미리 가져오는게 좋을 것 같은 페이지를 webpackPrefetch를 사용한다.
      () => import(/* webpackChunkName: "about", webpackPrefetch:true */ '../views/AboutView.vue')
+  },
+  {
+    path: '/databinding/string',
+    name: 'DataBindingStringView',
+    component: () => import(/* webpackChunkName: "databinding" */ '../views/1_databinding/DataBindingStringView.vue')
   }
 ]
 
