@@ -80,6 +80,11 @@ const routes = [
     path: '/event/change',
     name: 'EventChangeView',
     component: () => import(/* webpackChunkName: "event" */ '../views/Event/EventChangeView.vue')
+  },
+  {
+    path: '/event/key',
+    name: 'EventKeyView',
+    component: () => import(/* webpackChunkName: "event" */ '../views/Event/EventKeyView.vue')
   }
 ]
 

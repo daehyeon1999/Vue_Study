@@ -23,7 +23,8 @@
 
     <!-- Event -->
     <router-link to="/event/click">Event Click</router-link> |
-    <router-link to="/event/change">Event Change</router-link>
+    <router-link to="/event/change">Event Change</router-link> |
+    <router-link to="/event/key">Event Key</router-link>
   </nav>
 
   <!-- router-link의 페이지가 보여지는 부분 -->
