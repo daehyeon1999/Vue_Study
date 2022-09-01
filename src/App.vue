@@ -5,7 +5,11 @@
     <router-link to="/">Home</router-link> |
 
     <!-- About page으로 -->
-    <router-link to="/about">About</router-link>
+    <router-link to="/about">About</router-link> |
+
+    <!-- Data binding page으로 -->
+    <router-link to="/databinding/string">Data Binding String</router-link> |
+    <router-link to="/databinding/html">Data Binding Html</router-link>
   </nav>
 
   <!-- router-link의 페이지가 보여지는 부분 -->
