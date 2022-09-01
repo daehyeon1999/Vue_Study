@@ -13,13 +13,12 @@
     <router-link to="/databinding/input">Data Binding Input</router-link> |
     <router-link to="/databinding/select">Data Binding Select</router-link> |
     <router-link to="/databinding/checkbox">Data Binding Checkbox</router-link>
-    |
-    <router-link to="/databinding/radio">Data Binding Radio</router-link> |
+    | <router-link to="/databinding/radio">Data Binding Radio</router-link> |
     <router-link to="/databinding/attribute"
       >Data Binding Attribute</router-link
     >
-    |
-    <router-link to="/databinding/list">Data Binding List</router-link>
+    | <router-link to="/databinding/list">Data Binding List</router-link> |
+    <router-link to="/databinding/class">Data Binding Class</router-link>
   </nav>
 
   <!-- router-link의 페이지가 보여지는 부분 -->
