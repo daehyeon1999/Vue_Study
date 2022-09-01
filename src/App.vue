@@ -9,7 +9,8 @@
 
     <!-- Data binding page으로 -->
     <router-link to="/databinding/string">Data Binding String</router-link> |
-    <router-link to="/databinding/html">Data Binding Html</router-link>
+    <router-link to="/databinding/html">Data Binding Html</router-link> |
+    <router-link to="/databinding/input">Data Binding Input</router-link>
   </nav>
 
   <!-- router-link의 페이지가 보여지는 부분 -->
