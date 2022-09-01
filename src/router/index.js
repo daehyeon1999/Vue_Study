@@ -75,6 +75,11 @@ const routes = [
     path: '/event/click',
     name: 'EventClickView',
     component: () => import(/* webpackChunkName: "event" */ '../views/Event/EventClickView.vue')
+  },
+  {
+    path: '/event/change',
+    name: 'EventChangeView',
+    component: () => import(/* webpackChunkName: "event" */ '../views/Event/EventChangeView.vue')
   }
 ]
 
