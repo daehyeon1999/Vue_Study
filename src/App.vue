@@ -18,6 +18,8 @@
     <router-link to="/databinding/attribute"
       >Data Binding Attribute</router-link
     >
+    |
+    <router-link to="/databinding/list">Data Binding List</router-link>
   </nav>
 
   <!-- router-link의 페이지가 보여지는 부분 -->
